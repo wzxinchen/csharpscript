@@ -1,0 +1,196 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\index.html" />
+    <Content Remove="wwwroot\main.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\index.html" />
+    <None Include="wwwroot\main.js" />
+    <None Include="wwwroot\managed\CSharpScript.dll" />
+    <None Include="wwwroot\managed\CSharpScript.pdb" />
+    <None Include="wwwroot\managed\Microsoft.CSharp.dll" />
+    <None Include="wwwroot\managed\Microsoft.VisualBasic.Core.dll" />
+    <None Include="wwwroot\managed\Microsoft.VisualBasic.dll" />
+    <None Include="wwwroot\managed\Microsoft.Win32.Primitives.dll" />
+    <None Include="wwwroot\managed\Microsoft.Win32.Registry.dll" />
+    <None Include="wwwroot\managed\mscorlib.dll" />
+    <None Include="wwwroot\managed\netstandard.dll" />
+    <None Include="wwwroot\managed\System.AppContext.dll" />
+    <None Include="wwwroot\managed\System.Buffers.dll" />
+    <None Include="wwwroot\managed\System.Collections.Concurrent.dll" />
+    <None Include="wwwroot\managed\System.Collections.dll" />
+    <None Include="wwwroot\managed\System.Collections.Immutable.dll" />
+    <None Include="wwwroot\managed\System.Collections.NonGeneric.dll" />
+    <None Include="wwwroot\managed\System.Collections.Specialized.dll" />
+    <None Include="wwwroot\managed\System.ComponentModel.Annotations.dll" />
+    <None Include="wwwroot\managed\System.ComponentModel.DataAnnotations.dll" />
+    <None Include="wwwroot\managed\System.ComponentModel.dll" />
+    <None Include="wwwroot\managed\System.ComponentModel.EventBasedAsync.dll" />
+    <None Include="wwwroot\managed\System.ComponentModel.Primitives.dll" />
+    <None Include="wwwroot\managed\System.ComponentModel.TypeConverter.dll" />
+    <None Include="wwwroot\managed\System.Configuration.dll" />
+    <None Include="wwwroot\managed\System.Console.dll" />
+    <None Include="wwwroot\managed\System.Core.dll" />
+    <None Include="wwwroot\managed\System.Data.Common.dll" />
+    <None Include="wwwroot\managed\System.Data.DataSetExtensions.dll" />
+    <None Include="wwwroot\managed\System.Data.dll" />
+    <None Include="wwwroot\managed\System.Diagnostics.Contracts.dll" />
+    <None Include="wwwroot\managed\System.Diagnostics.Debug.dll" />
+    <None Include="wwwroot\managed\System.Diagnostics.DiagnosticSource.dll" />
+    <None Include="wwwroot\managed\System.Diagnostics.FileVersionInfo.dll" />
+    <None Include="wwwroot\managed\System.Diagnostics.Process.dll" />
+    <None Include="wwwroot\managed\System.Diagnostics.StackTrace.dll" />
+    <None Include="wwwroot\managed\System.Diagnostics.TextWriterTraceListener.dll" />
+    <None Include="wwwroot\managed\System.Diagnostics.Tools.dll" />
+    <None Include="wwwroot\managed\System.Diagnostics.TraceSource.dll" />
+    <None Include="wwwroot\managed\System.Diagnostics.Tracing.dll" />
+    <None Include="wwwroot\managed\System.dll" />
+    <None Include="wwwroot\managed\System.Drawing.dll" />
+    <None Include="wwwroot\managed\System.Drawing.Primitives.dll" />
+    <None Include="wwwroot\managed\System.Dynamic.Runtime.dll" />
+    <None Include="wwwroot\managed\System.Formats.Asn1.dll" />
+    <None Include="wwwroot\managed\System.Formats.Tar.dll" />
+    <None Include="wwwroot\managed\System.Globalization.Calendars.dll" />
+    <None Include="wwwroot\managed\System.Globalization.dll" />
+    <None Include="wwwroot\managed\System.Globalization.Extensions.dll" />
+    <None Include="wwwroot\managed\System.IO.Compression.Brotli.dll" />
+    <None Include="wwwroot\managed\System.IO.Compression.dll" />
+    <None Include="wwwroot\managed\System.IO.Compression.FileSystem.dll" />
+    <None Include="wwwroot\managed\System.IO.Compression.ZipFile.dll" />
+    <None Include="wwwroot\managed\System.IO.dll" />
+    <None Include="wwwroot\managed\System.IO.FileSystem.AccessControl.dll" />
+    <None Include="wwwroot\managed\System.IO.FileSystem.dll" />
+    <None Include="wwwroot\managed\System.IO.FileSystem.DriveInfo.dll" />
+    <None Include="wwwroot\managed\System.IO.FileSystem.Primitives.dll" />
+    <None Include="wwwroot\managed\System.IO.FileSystem.Watcher.dll" />
+    <None Include="wwwroot\managed\System.IO.IsolatedStorage.dll" />
+    <None Include="wwwroot\managed\System.IO.MemoryMappedFiles.dll" />
+    <None Include="wwwroot\managed\System.IO.Pipes.AccessControl.dll" />
+    <None Include="wwwroot\managed\System.IO.Pipes.dll" />
+    <None Include="wwwroot\managed\System.IO.UnmanagedMemoryStream.dll" />
+    <None Include="wwwroot\managed\System.Linq.dll" />
+    <None Include="wwwroot\managed\System.Linq.Expressions.dll" />
+    <None Include="wwwroot\managed\System.Linq.Parallel.dll" />
+    <None Include="wwwroot\managed\System.Linq.Queryable.dll" />
+    <None Include="wwwroot\managed\System.Memory.dll" />
+    <None Include="wwwroot\managed\System.Net.dll" />
+    <None Include="wwwroot\managed\System.Net.Http.dll" />
+    <None Include="wwwroot\managed\System.Net.Http.Json.dll" />
+    <None Include="wwwroot\managed\System.Net.HttpListener.dll" />
+    <None Include="wwwroot\managed\System.Net.Mail.dll" />
+    <None Include="wwwroot\managed\System.Net.NameResolution.dll" />
+    <None Include="wwwroot\managed\System.Net.NetworkInformation.dll" />
+    <None Include="wwwroot\managed\System.Net.Ping.dll" />
+    <None Include="wwwroot\managed\System.Net.Primitives.dll" />
+    <None Include="wwwroot\managed\System.Net.Quic.dll" />
+    <None Include="wwwroot\managed\System.Net.Requests.dll" />
+    <None Include="wwwroot\managed\System.Net.Security.dll" />
+    <None Include="wwwroot\managed\System.Net.ServicePoint.dll" />
+    <None Include="wwwroot\managed\System.Net.Sockets.dll" />
+    <None Include="wwwroot\managed\System.Net.WebClient.dll" />
+    <None Include="wwwroot\managed\System.Net.WebHeaderCollection.dll" />
+    <None Include="wwwroot\managed\System.Net.WebProxy.dll" />
+    <None Include="wwwroot\managed\System.Net.WebSockets.Client.dll" />
+    <None Include="wwwroot\managed\System.Net.WebSockets.dll" />
+    <None Include="wwwroot\managed\System.Numerics.dll" />
+    <None Include="wwwroot\managed\System.Numerics.Vectors.dll" />
+    <None Include="wwwroot\managed\System.ObjectModel.dll" />
+    <None Include="wwwroot\managed\System.Private.CoreLib.dll" />
+    <None Include="wwwroot\managed\System.Private.DataContractSerialization.dll" />
+    <None Include="wwwroot\managed\System.Private.Uri.dll" />
+    <None Include="wwwroot\managed\System.Private.Xml.dll" />
+    <None Include="wwwroot\managed\System.Private.Xml.Linq.dll" />
+    <None Include="wwwroot\managed\System.Reflection.DispatchProxy.dll" />
+    <None Include="wwwroot\managed\System.Reflection.dll" />
+    <None Include="wwwroot\managed\System.Reflection.Emit.dll" />
+    <None Include="wwwroot\managed\System.Reflection.Emit.ILGeneration.dll" />
+    <None Include="wwwroot\managed\System.Reflection.Emit.Lightweight.dll" />
+    <None Include="wwwroot\managed\System.Reflection.Extensions.dll" />
+    <None Include="wwwroot\managed\System.Reflection.Metadata.dll" />
+    <None Include="wwwroot\managed\System.Reflection.Primitives.dll" />
+    <None Include="wwwroot\managed\System.Reflection.TypeExtensions.dll" />
+    <None Include="wwwroot\managed\System.Resources.Reader.dll" />
+    <None Include="wwwroot\managed\System.Resources.ResourceManager.dll" />
+    <None Include="wwwroot\managed\System.Resources.Writer.dll" />
+    <None Include="wwwroot\managed\System.Runtime.CompilerServices.Unsafe.dll" />
+    <None Include="wwwroot\managed\System.Runtime.CompilerServices.VisualC.dll" />
+    <None Include="wwwroot\managed\System.Runtime.dll" />
+    <None Include="wwwroot\managed\System.Runtime.Extensions.dll" />
+    <None Include="wwwroot\managed\System.Runtime.Handles.dll" />
+    <None Include="wwwroot\managed\System.Runtime.InteropServices.dll" />
+    <None Include="wwwroot\managed\System.Runtime.InteropServices.JavaScript.dll" />
+    <None Include="wwwroot\managed\System.Runtime.InteropServices.RuntimeInformation.dll" />
+    <None Include="wwwroot\managed\System.Runtime.Intrinsics.dll" />
+    <None Include="wwwroot\managed\System.Runtime.Loader.dll" />
+    <None Include="wwwroot\managed\System.Runtime.Numerics.dll" />
+    <None Include="wwwroot\managed\System.Runtime.Serialization.dll" />
+    <None Include="wwwroot\managed\System.Runtime.Serialization.Formatters.dll" />
+    <None Include="wwwroot\managed\System.Runtime.Serialization.Json.dll" />
+    <None Include="wwwroot\managed\System.Runtime.Serialization.Primitives.dll" />
+    <None Include="wwwroot\managed\System.Runtime.Serialization.Xml.dll" />
+    <None Include="wwwroot\managed\System.Security.AccessControl.dll" />
+    <None Include="wwwroot\managed\System.Security.Claims.dll" />
+    <None Include="wwwroot\managed\System.Security.Cryptography.Algorithms.dll" />
+    <None Include="wwwroot\managed\System.Security.Cryptography.Cng.dll" />
+    <None Include="wwwroot\managed\System.Security.Cryptography.Csp.dll" />
+    <None Include="wwwroot\managed\System.Security.Cryptography.dll" />
+    <None Include="wwwroot\managed\System.Security.Cryptography.Encoding.dll" />
+    <None Include="wwwroot\managed\System.Security.Cryptography.OpenSsl.dll" />
+    <None Include="wwwroot\managed\System.Security.Cryptography.Primitives.dll" />
+    <None Include="wwwroot\managed\System.Security.Cryptography.X509Certificates.dll" />
+    <None Include="wwwroot\managed\System.Security.dll" />
+    <None Include="wwwroot\managed\System.Security.Principal.dll" />
+    <None Include="wwwroot\managed\System.Security.Principal.Windows.dll" />
+    <None Include="wwwroot\managed\System.Security.SecureString.dll" />
+    <None Include="wwwroot\managed\System.ServiceModel.Web.dll" />
+    <None Include="wwwroot\managed\System.ServiceProcess.dll" />
+    <None Include="wwwroot\managed\System.Text.Encoding.CodePages.dll" />
+    <None Include="wwwroot\managed\System.Text.Encoding.dll" />
+    <None Include="wwwroot\managed\System.Text.Encoding.Extensions.dll" />
+    <None Include="wwwroot\managed\System.Text.Encodings.Web.dll" />
+    <None Include="wwwroot\managed\System.Text.Json.dll" />
+    <None Include="wwwroot\managed\System.Text.RegularExpressions.dll" />
+    <None Include="wwwroot\managed\System.Threading.Channels.dll" />
+    <None Include="wwwroot\managed\System.Threading.dll" />
+    <None Include="wwwroot\managed\System.Threading.Overlapped.dll" />
+    <None Include="wwwroot\managed\System.Threading.Tasks.Dataflow.dll" />
+    <None Include="wwwroot\managed\System.Threading.Tasks.dll" />
+    <None Include="wwwroot\managed\System.Threading.Tasks.Extensions.dll" />
+    <None Include="wwwroot\managed\System.Threading.Tasks.Parallel.dll" />
+    <None Include="wwwroot\managed\System.Threading.Thread.dll" />
+    <None Include="wwwroot\managed\System.Threading.ThreadPool.dll" />
+    <None Include="wwwroot\managed\System.Threading.Timer.dll" />
+    <None Include="wwwroot\managed\System.Transactions.dll" />
+    <None Include="wwwroot\managed\System.Transactions.Local.dll" />
+    <None Include="wwwroot\managed\System.ValueTuple.dll" />
+    <None Include="wwwroot\managed\System.Web.dll" />
+    <None Include="wwwroot\managed\System.Web.HttpUtility.dll" />
+    <None Include="wwwroot\managed\System.Windows.dll" />
+    <None Include="wwwroot\managed\System.Xml.dll" />
+    <None Include="wwwroot\managed\System.Xml.Linq.dll" />
+    <None Include="wwwroot\managed\System.Xml.ReaderWriter.dll" />
+    <None Include="wwwroot\managed\System.Xml.Serialization.dll" />
+    <None Include="wwwroot\managed\System.Xml.XDocument.dll" />
+    <None Include="wwwroot\managed\System.Xml.XmlDocument.dll" />
+    <None Include="wwwroot\managed\System.Xml.XmlSerializer.dll" />
+    <None Include="wwwroot\managed\System.Xml.XPath.dll" />
+    <None Include="wwwroot\managed\System.Xml.XPath.XDocument.dll" />
+    <None Include="wwwroot\managed\WindowsBase.dll" />
+    <None Include="wwwroot\supportFiles\0_runtimeconfig.bin" />
+    <None Include="wwwroot\supportFiles\1_dotnet.js.symbols" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.46" />
+    <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.4.0" />
+  </ItemGroup>
+
+</Project>
